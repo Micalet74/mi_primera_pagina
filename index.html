@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="container-header">
+      <div class="brand">
+        <h1>Mi sitio</h1>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Bienvenido a mi página web.</p>
+    </section>
+
+    <main>
+  <!-- SECCIÓN DE PRESENTACIÓN -->
+  <section id="inicio" class="presentacion">
+    <div class="tarjeta">
+      <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="foto-perfil">
+      <h2>¡Hola! Soy [Tu Nombre]</h2>
+      <p>Desarrollador web en formación, apasionado por el diseño y la creación de experiencias digitales. 🚀</p>
+      <div class="botones-redes">
+        <a href="https://github.com/" target="_blank" class="btn-red">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="btn-red">LinkedIn</a>
+        <a href="mailto:tucorreo@ejemplo.com" class="btn-red">Correo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESTO DE SECCIONES -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Me gusta aprender sobre desarrollo web y crear cosas nuevas.</p>
+  </section>
+
+  <section id="proyectos" class="proyectos">
+  <h2>Mis Proyectos</h2>
+  <p class="descripcion-seccion">Aquí tienes algunos ejemplos de lo que he creado y en lo que estoy trabajando.</p>
+
+  <div class="grid-proyectos">
+    <div class="card-proyecto">
+      <img src="https://via.placeholder.com/400x250" alt="Proyecto 1">
+      <div class="contenido-proyecto">
+        <h3>Proyecto 1</h3>
+        <p>Un sitio web básico hecho con HTML y CSS.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+
+    <div class="card-proyecto">
+      <img src="https://via.placeholder.com/400x250" alt="Proyecto 2">
+      <div class="contenido-proyecto">
+        <h3>Proyecto 2</h3>
+        <p>Un diseño responsivo para dispositivos móviles.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+
+    <div class="card-proyecto">
+      <img src="https://via.placeholder.com/400x250" alt="Proyecto 3">
+      <div class="contenido-proyecto">
+        <h3>Proyecto 3</h3>
+        <p>Un pequeño experimento con animaciones y efectos visuales.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <p class="descripcion-seccion">
+    Si quieres ponerte en contacto conmigo, completa el formulario y te responderé lo antes posible.
+  </p>
+
+  <form action="https://formspree.io/f/xgvndwey" method="POST" class="form-contacto">
+    <div class="campo">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="campo">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="_replyto" placeholder="Tu correo" required>
+    </div>
+
+    <div class="campo">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+  </form>
+</section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Me gusta aprender sobre desarrollo web y crear cosas nuevas.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <p>Aquí mostraré mis proyectos futuros.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a mi correo o seguirme en redes sociales.</p>
+    </section>
+  </main>
+
+</body>
+</html>
